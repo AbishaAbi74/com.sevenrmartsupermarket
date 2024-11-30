@@ -15,7 +15,7 @@
 		<classes>
 			<class name="com.sevenrmartsupermarket.tests.LoginTest">
 			</class>
-			<class name="com.sevenrmartsupermarket.tests.AdminUsersTestCase">
+			<class name="com.sevenrmartsupermarket.tests.AdminUsersTest">
 			</class>
 		</classes>
 	</test>

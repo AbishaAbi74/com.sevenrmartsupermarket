@@ -23,6 +23,7 @@ public class AdminUsersTest extends Base {
 	    adminuserpage.clickOnNewUserBtn();
 		String newUserRandomName = GeneralUtility.getRandomFullName();
 		System.out.println(newUserRandomName);
+		System.out.println(GeneralUtility.getRandomAddress());
 		adminuserpage.newLogin(newUserRandomName+"abi","ammu");
 		adminuserpage.selectnewUserTypeDropdown().clickSaveButton();
 		String actualNewAlert =adminuserpage.getTextOfNewUserAlert();
